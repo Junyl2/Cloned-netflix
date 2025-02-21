@@ -277,6 +277,9 @@ footer .second {
   margin-bottom: 20px;
   padding-right: 400px;
 }
+footer p {
+  font-size: clamp(0.8rem, 2.5vw, 1rem);
+}
 @media (max-width: 1668px) {
   footer {
     margin-top: -10%;
